@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title><!--REPORT_TITLE--></title>
+  <style>/*REPORT_CSS*/</style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">▤</span><div>REPORT EXPLORER<small>離線事件分析</small></div></div>
+      <div class="nav-label">報告工作表 <span id="sheet-count"></span></div>
+      <nav id="report-nav" role="tablist" aria-label="報告工作表" aria-orientation="vertical"></nav>
+      <div class="sidebar-foot"><span class="status-dot"></span>本機離線報表<small>資料已包含於此 HTML 檔案</small></div>
+    </aside>
+    <main>
+      <div class="workspace" id="report-panel" role="tabpanel" tabindex="0">
+        <div class="page-intro"><h1 id="report-title">正在載入報表</h1></div>
+        <section class="records-section" aria-label="識別群組">
+          <div class="toolbar"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋識別值或欄位內容" autocomplete="off" aria-label="搜尋識別群組"></label><label class="sort-label">排序<select id="sort"><option value="count">筆數由多到少</option><option value="latest">最近觸發時間</option><option value="name">識別值名稱</option></select></label></div>
+          <div id="time-warning" class="warning" hidden></div>
+          <div id="groups"></div>
+          <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>沒有符合的紀錄</h3><p>請調整搜尋內容，或切換其他工作表。</p></div>
+          <div class="pagination" id="group-pagination"></div>
+        </section>
+        <footer class="report-footer"><span id="source-label"></span><span>時間顯示：月/日 · 24 小時制</span></footer>
+      </div>
+      <noscript>請啟用瀏覽器的 JavaScript，以切換工作表及查看報告。</noscript>
+    </main>
+  </div>
+  <script id="report-data" type="application/json"><!--REPORT_DATA--></script>
+  <script>/*REPORT_JS*/</script>
+</body>
+</html>

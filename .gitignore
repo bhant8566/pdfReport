@@ -1,0 +1,6 @@
+/Data/
+/Output/
+/Input/*
+!/Input/.gitkeep
+/tests/*.log
+*xlsx

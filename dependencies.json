@@ -1,0 +1,70 @@
+[
+    {
+        "package":  "Tabula",
+        "version":  "1.0.1",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/tabula/1.0.1/tabula.1.0.1.nupkg",
+        "sha256":  "B7CF016B006963B3CD4E865C4F4C344B05779CAB3F2DE4096CC87AF0DCA37796"
+    },
+    {
+        "package":  "PdfPig",
+        "version":  "0.1.14",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/pdfpig/0.1.14/pdfpig.0.1.14.nupkg",
+        "sha256":  "FE50EC7757ADBB487BB52A30F1621384BBB5781FD0BFF2169D9F18BC4BB91220"
+    },
+    {
+        "package":  "Microsoft.Bcl.HashCode",
+        "version":  "6.0.0",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/microsoft.bcl.hashcode/6.0.0/microsoft.bcl.hashcode.6.0.0.nupkg",
+        "sha256":  "F3B9B2BAB0BF8CC717D5FDF6D7AEE3EC54E36D9E85BD41347ACAE161319CBD6B"
+    },
+    {
+        "package":  "System.Memory",
+        "version":  "4.6.0",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/system.memory/4.6.0/system.memory.4.6.0.nupkg",
+        "sha256":  "3A10042B350CE9E11A1FDF4370668CCF6A452C6FEAFCDE0A556AAA881614385A"
+    },
+    {
+        "package":  "System.Buffers",
+        "version":  "4.6.0",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/system.buffers/4.6.0/system.buffers.4.6.0.nupkg",
+        "sha256":  "736425805075E8895F066B3960BB1308543F41E2A84BAA61D5AF6675192AFC97"
+    },
+    {
+        "package":  "System.Numerics.Vectors",
+        "version":  "4.6.0",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/system.numerics.vectors/4.6.0/system.numerics.vectors.4.6.0.nupkg",
+        "sha256":  "7CA4B7B964361E647AF6F3610C7A8F2D834EB77AA98E25903976431EF444D475"
+    },
+    {
+        "package":  "System.Runtime.CompilerServices.Unsafe",
+        "version":  "6.1.0",
+        "framework":  "net462",
+        "source":  "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.1.0/system.runtime.compilerservices.unsafe.6.1.0.nupkg",
+        "sha256":  "372AAAA51707BA6CD2C69B2044382E0F9486C1D50D1C16E8D0E39DCCB4C8CC25"
+    },
+    {
+        "package":  "System.ValueTuple",
+        "version":  "4.5.0",
+        "framework":  "net461",
+        "source":  "https://api.nuget.org/v3-flatcontainer/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg",
+        "sha256":  "9E21FA9767D4E76BC0CEE065C1D40CC34384A114BFEC4D70E6C981168A926802"
+    },
+    {
+        "package":  "ImportExcel",
+        "version":  "7.8.10",
+        "source":  "https://github.com/dfinke/ImportExcel",
+        "sha256":  "C32CEFBD1EA051ED3AF06E7FB9DD558598A612F042164140CD8BE722A351BC63"
+    },
+    {
+        "package":  "PdfReportExtractor.TableText",
+        "version":  "1.0.0",
+        "source":  "src/TableTextReader.cs",
+        "sha256":  "02A5C859AA4EB60D6441D39ED08FF4F6134E9138B21EB6B356D6690C1DC58F73"
+    }
+]

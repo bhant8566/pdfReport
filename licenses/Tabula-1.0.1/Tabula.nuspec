@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Tabula</id>
+    <version>1.0.1</version>
+    <authors>BobLd</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/BobLd/tabula-sharp</projectUrl>
+    <description>Extract tables from PDF files (port of tabula-java using PdfPig).</description>
+    <tags>pdf, extract, table, tabula, pdfpig, parse, extraction, export</tags>
+    <repository type="git" url="https://github.com/BobLd/tabula-sharp" commit="2c27bf675169aabee66c71a27ea1904691fa0d85" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.7.1">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net9.0">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="PdfPig" version="0.1.14" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
